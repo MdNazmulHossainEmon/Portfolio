@@ -1,0 +1,22 @@
+[
+    {
+      "id": "1",
+      "img" : "https://i.ibb.co/Vv0WvbS/Camera-essential.png",
+      "image1" : "https://i.ibb.co/C9qP67s/explore-1.png",
+      "name": "Camera Essentials",
+      "description": "It is a niche camera selling website where they sell all kinds of camera .From analog to digital, compact , stylish, colorful , polaroid etc. you will find all kind of ca...",
+      "descriptionnn": "It is a niche camera selling website where they sell all kinds of camera .From analog to digital, compact , stylish, colorful , polaroid etc. you will find all kind of casfgsfgsgfsfgsfgsfgsfgsfgg..."
+    },
+    {
+      "id": "2",
+      "img" : "https://i.ibb.co/DRcB25f/venture.png",
+      "name": "Wild Venture",
+      "description": "It is a tourism-related website that makes travel safer and more fun. Users need to log in to receive various services or plans. user can place order and delete their or..."
+    },
+    {
+      "id": "3",
+      "img" : "https://i.ibb.co/QYnyQ3h/therapy.png",
+      "name": "Physical Therapy",
+      "description": " Physical therapists help people manage pain and improve movement problems. Some pain and movement problems can become chronic and lead to surgery. Physical therapy helps.."
+    }
+  ]

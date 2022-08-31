@@ -1,0 +1,10 @@
+.contact-text{
+  color:   #00B074;
+  font-weight: bold;
+}
+.contact-form input{
+  border: none;
+}
+.contact-form textarea{
+  border: none;
+}

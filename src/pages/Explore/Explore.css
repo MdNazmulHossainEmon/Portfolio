@@ -1,0 +1,28 @@
+/* .serial-image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    padding: 10PX;
+} */
+.serial-image img{
+  
+    display: inline-block;
+    /* border: 2px solid grey; */
+    padding: 10px;
+}
+.live-website{
+    background-color: #00B068;
+    border: 0;
+
+}
+.github-server{
+    background-color: #00B068;
+    border: 0;
+    margin-right: 10px;
+
+}
+.github-client{
+    background-color: #00B068;
+    border: 0;
+    margin-right: 10px;
+}
