@@ -30,18 +30,16 @@ const Home = () => {
                                 <h3>I am Md <span className='text-green'>
                                     Nazmul Hossain Emon
                                 </span></h3>
-                                <h5>Junior web developer
+                                <h5>Web developer
                                 </h5>
-                                <p>In my experience of developing user interface application and professional web applications using HTML5, CSS, CSS3, Bootstrap4, Bootstrap5, JavaScript, Reactjs, Nodejs, Expressjs
+                                <p>In my experience of developing user interface application and professional web applications using HTML5, CSS, CSS3, PSD To Html, Figma To Html, Github, Netlify, Bootstrap4, Bootstrap5, JavaScript, ES6, Reactjs, Nodejs, Firebase, MongoDB, Expressjs.
 
                                 </p>
                             </div>
                         </Col>
                     </Row>
                 </Container>
-
             </div>
-
 
 
             <div className='bg-dark home-bottom'>
@@ -60,12 +58,9 @@ const Home = () => {
                             </MyPortfolio>)
                         }
 
-
                     </Row>
 
                 </Container>
-
-
             </div>
 
         </div>
