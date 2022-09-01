@@ -17,7 +17,7 @@ const About = () => {
                                 <h2 className='py-2'>I am Md Nazmul Hossain Emon</h2>
                                 <p
                                     className='pera'
-                                >I am a Junior Web Developer/React Web Developer from bangladesh.  I have one plus year of experience in web development, designing and developing user interfaces, testing, and debugging. Web Development and Design is my passion.
+                                >I am a Junior Web Developer/React Web Developer from bangladesh.  I have two year of experience in web development, designing and developing user interfaces, testing, and debugging. Web Development and Design is my passion.
                                 </p>
                             </div>
                         </Col>
