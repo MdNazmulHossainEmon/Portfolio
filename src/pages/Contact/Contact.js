@@ -42,7 +42,19 @@ const Contact = () => {
                     <br />
                     <br />
 
-                    <input type="submit" value="Send" />
+                    <input
+
+                    style={{
+                        background : "#00B074",
+                        color : "white",
+                        padding : "13px 45px",
+                        fontWeight : "bold",
+                        borderRadius : "10PX"
+                    }}
+                  
+                    type="submit" value="Send" />
+
+                  
 
                 </form>
 
