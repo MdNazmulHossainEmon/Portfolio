@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home/Home';
+import Home from './pages/Home/Home/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './pages/Shared/Header/Header';
 import NotFound from './pages/NotFound/NotFound';
@@ -8,7 +8,6 @@ import About from './pages/About/About';
 import Blogs from './pages/Blogs/Blogs';
 import Contact from './pages/Contact/Contact';
 import Resume from './pages/Resume/Resume';
-import Footer from './pages/Shared/Footer/Footer';
 import Explore from './pages/Explore/Explore';
 function App() {
   return (
@@ -28,11 +27,9 @@ function App() {
               <Route path="/explore/:id" element={<Explore />} />
 
 
-
-
               <Route path="*" element={<NotFound />} />
               </Routes>
-              <Footer></Footer>
+              
         </BrowserRouter>
     </div>
   );

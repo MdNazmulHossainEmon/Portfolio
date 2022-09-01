@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import Footer from '../../Shared/Footer/Footer';
 import MyPortfolio from '../MyPortfolio/MyPortfolio';
 import "./Home.css"
 
@@ -62,6 +63,7 @@ const Home = () => {
 
                 </Container>
             </div>
+            <Footer></Footer>
 
         </div>
     );

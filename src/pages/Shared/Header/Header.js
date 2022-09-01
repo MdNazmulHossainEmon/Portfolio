@@ -15,11 +15,16 @@ const Header = () => {
     return (
         <Navbar collapseOnSelect expand="lg" className='bg' variant="white">
             <Container>
-               <span></span>
+               <h3
+               style={{
+                fontWeight : "bold",
+                
+               }}
+               >Web Developer</h3>
                 
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="mx-auto py-2">
+                    <Nav className="ms-auto py-2">
                         {/* <Nav.Link href="#features">Home</Nav.Link> */}
 
 
