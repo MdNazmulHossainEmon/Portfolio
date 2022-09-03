@@ -42,13 +42,10 @@ const Home = () => {
                 </Container>
             </div>
 
-
             <div className='bg-dark home-bottom'>
                 <Container>
                     <h2 className='text-center mb-5 works-text'>My Portfolio</h2>
-
                     <Row lg={3} md={2} sm={1}>
-
 
                         {
                             portfolioDatas.map(portfolioData => <MyPortfolio
@@ -60,11 +57,9 @@ const Home = () => {
                         }
 
                     </Row>
-
                 </Container>
             </div>
             <Footer></Footer>
-
         </div>
     );
 };

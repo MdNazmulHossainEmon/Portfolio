@@ -24,46 +24,35 @@ const Explore = () => {
     }, [details])
 
     return (
-        <div className='py-5 bg-dark text-white'>
+        <div className='py-5 vh-100 bg-dark text-white'>
             <h2 className='text-center'>{singleDetail?.name} </h2>
-           
+
             <div className='serial-image'>
                 <Container>
                     <Row>
                         <Col lg={4} md={12}>
-                        <div className='mb-3'>
-                <img className='w-100'  src={singleDetail?.image1} alt="" />
-
-                </div>
+                            <div className='mb-3'>
+                                <img className='w-100' src={singleDetail?.image1} alt="" />
+                            </div>
                         </Col>
 
                         <Col lg={4} md={12}>
-                        <div className='mb-3'>
-                <img className='w-100'  src={singleDetail?.image2} alt="" />
+                            <div className='mb-3'>
+                                <img className='w-100' src={singleDetail?.image2} alt="" />
 
-                </div>
+                            </div>
                         </Col>
 
                         <Col lg={4} md={12}>
-                        <div>
-                <img  className='w-100' src={singleDetail?.image3} alt="" />
+                            <div>
+                                <img className='w-100' src={singleDetail?.image3} alt="" />
 
-                </div>
+                            </div>
                         </Col>
                     </Row>
                 </Container>
-
-                
-
-               
-
-               
-
-
             </div>
-            
-          
-            {/* <h5 className='text-dark'>{singleDetail?.descriptionnn}</h5> */}
+
             <ul className='text-center p-0'>
                 <li>1. {singleDetail?.description1}</li>
                 <li>2. {singleDetail?.description2}</li>
@@ -71,9 +60,9 @@ const Explore = () => {
             </ul>
             {/* <Button>Github Client Repo</Button> */}
             <div className='text-center '>
-            <Button className='github-client'  href={singleDetail?.link1} target="_blank">Github Client Sepo</Button>
-            <Button className='github-server' href={singleDetail?.link2} target="_blank">Github Server Repo</Button>
-            <Button className='live-website' href={singleDetail?.link3} target="_blank">Llive Website</Button>
+                <Button className='github-client mb-3' href={singleDetail?.link1} target="_blank">Github Client Sepo</Button>
+                <Button className='github-server mb-3' href={singleDetail?.link2} target="_blank">Github Server Repo</Button>
+                <Button className='live-website mb-3' href={singleDetail?.link3} target="_blank">Llive Website</Button>
 
             </div>
 

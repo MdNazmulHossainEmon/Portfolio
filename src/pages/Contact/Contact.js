@@ -7,7 +7,6 @@ const Contact = () => {
     function sendEmail(e) {
         e.preventDefault();
 
-
         emailjs.sendForm('service_3mcv49u', 'template_vhev09l', e.target, 'w7Dc7v9ULweVgpKb_')
             .then((result) => {
                 console.log(result.text);
@@ -28,8 +27,6 @@ const Contact = () => {
                     <input className='form-control d-inline-block form-control-lg w-75' type="text" name='name' placeholder='Enter Your Name' />
                     <br />
                     <br />
-
-
                     <input className='form-control d-inline-block  w-75 form-control-lg' type="email" name='user_email' placeholder='Enter Your Email' />
                     <br />
                     <br />
@@ -51,11 +48,7 @@ const Contact = () => {
                         fontWeight : "bold",
                         borderRadius : "10PX"
                     }}
-                  
                     type="submit" value="Send" />
-
-                  
-
                 </form>
 
             </Container>

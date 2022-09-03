@@ -37,14 +37,14 @@ const About = () => {
                     </Row>
                 </Container>
             </div>
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
 
             <Footer ></Footer>
         </div>
