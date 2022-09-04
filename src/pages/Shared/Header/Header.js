@@ -64,7 +64,7 @@ const Header = () => {
                         </NavLink>
                         <a
                        className='text-dark'
-                        href="https://drive.google.com/file/d/1unks6IiHQeB_KFIPiWvtlPU6ZuVckKhl/view?usp=sharing" target="_blank" rel='noreferrer noopener'>Resume</a>
+                        href="https://drive.google.com/file/d/1zg4fARzyZtThVNZp2D-atylCTzVOfRtD/preview" target="_blank" rel='noreferrer noopener'>Resume</a>
                        
 
                     </Nav>
